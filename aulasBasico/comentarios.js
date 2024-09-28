@@ -1,0 +1,4 @@
+//escrever um comentario
+/*
+bloco
+*/
