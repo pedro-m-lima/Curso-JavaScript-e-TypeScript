@@ -30,5 +30,12 @@ let num5 = 0.1;
 console.log(num4+num5); //0.7999999
 
 //Para que o calculo possa dar certo, temos utilizar a função nu,ber ou parseFloat 
+num6 = num4+num5;
+num6 = Number(num6.toFixed(2)); //dessa forma a conta fica exata
+console.log(num6);
 
+//ou podemos resolver com calculo
 
+num6 = ((num4 * 100)+(num5 * 100)) /100;
+
+console.log(num6);
