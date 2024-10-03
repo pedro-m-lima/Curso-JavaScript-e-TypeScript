@@ -39,3 +39,10 @@ console.log(num6);
 num6 = ((num4 * 100)+(num5 * 100)) /100;
 
 console.log(num6);
+
+//PAra pegar a raiz gradade um numero podemos utilizar o operador de potenciação como 0.5
+let num7 = 25;
+console.log(num7 ** 0.5)
+
+////em java script pode dividir um numero por zero, em outras liguagens exibiria um erro. o ranorex retorna como verdadeiro e da o valor infinity
+console.log(100 / 0);
