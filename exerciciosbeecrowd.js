@@ -31,7 +31,7 @@ let B = 0;
 console.log(`SOMA = ${A+B}`);
 */
 
-/** */
+/** 
 //let v1 = parseInt(lines[0]);
 //let v2 = parseInt(lines[1]);
 
@@ -39,4 +39,20 @@ let v1 = parseInt();
 let v2 = parseInt(10);
 
 console.log(`PROD = ${v1*v2}`);
+
+// */
+
+/** */
+let A = parseFloat(lines[0]);
+let B = parseFloat(lines[1]);
+
+A = parseFloat(10.0);
+B = parseFloat(10.0);
+//A=3.5
+//B=7.5
+//M=11.0
+
+console.log(`MEDIA = ${(((A*3.5)+(B*7.5))/11).toFixed(5)}`);
+
+//*/
 
