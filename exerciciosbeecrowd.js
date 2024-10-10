@@ -42,7 +42,7 @@ console.log(`PROD = ${v1*v2}`);
 
 // */
 
-/** */
+/** 
 let A = parseFloat(lines[0]);
 let B = parseFloat(lines[1]);
 
@@ -55,4 +55,26 @@ B = parseFloat(10.0);
 console.log(`MEDIA = ${(((A*3.5)+(B*7.5))/11).toFixed(5)}`);
 
 //*/
+/*
+let A = parseFloat(lines[0]);
+let B = parseFloat(lines[1]);
+let C = parseFloat(lines[2]);
 
+A = parseFloat(10.0);
+B = parseFloat(10.0);
+C = parseFloat(5.0);
+
+console.log(`MEDIA = ${(((A*2)+(B*3)+(C*5))/10).toFixed(1)}`);
+//*/
+
+let A = parseInt(lines[0]);
+let B = parseInt(lines[1]);
+let C = parseInt(lines[2]);
+let D = parseInt(lines[3]);
+
+A = parseInt(0);
+B = parseInt(0);
+C = parseInt(7);
+D = parseInt(8);
+
+console.log(`DIFERENCA = ${(A*B)-(C*D)}`);

@@ -52,7 +52,7 @@ function soma(x=1, y=1 ){       //recebe 2 valores
 console.log(soma()); 
 //*/
 
-//Criando uma função dentro de uma variavel, chamado de função anonima
+/*//Criando uma função dentro de uma variavel, chamado de função anonima
 
 const raiz = function (n){           //Cria a variavel e atribui uma função que recebe um numero (Obrigatoriamente esse tipo de função deve conter ; pois é pra indicar que finaliza a variavel)
     return n ** 0.5;                //atribui retorno com o valor da raiz N que foi o parametro recebido com o calculo.
@@ -60,7 +60,10 @@ const raiz = function (n){           //Cria a variavel e atribui uma função qu
 
 console.log(raiz(9));   
 console.log(raiz(16));                //Exbe resultado da variavel com função.
+//*/
 
-//Maneira mais moderna de realizar função, chamada de => Arrow function, com ela podemos elimentar todos os parentes e chaves deixando mais clean o codigo
+
+/*//Maneira mais moderna de realizar função, chamada de => Arrow function, com ela podemos elimentar todos os parentes e chaves deixando mais clean o codigo
 const raizArrow = n => n ** 0.5; //Aqui foi removido os Parenteses, return, e chaves e continua funcionando
 console.log(raizArrow(9));
+//*/
