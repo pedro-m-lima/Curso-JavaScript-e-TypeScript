@@ -34,7 +34,7 @@ const pessoa4 = criaPessoa_('Roberto', 'guimaraes', 30);
 console.log(pessoa4)
 //*/
 
-/*// Criando métodos, os métodos são ações que o objeto pode realizar
+/// Criando métodos, os métodos são ações que o objeto pode realizar
 const pessoa1 = {
     nome: 'Luiz',
     sobrenome: 'Miranda',
