@@ -108,7 +108,7 @@ console.log(`TOTAL = R$ ${(salario+(totalVendas*0.15)).toFixed(2)}`);
 
 //*/
 
-///  1010
+/*//  1010
 
 let p1 = lines[0].split(' ');
 let p2 = lines[1].split(' ');
