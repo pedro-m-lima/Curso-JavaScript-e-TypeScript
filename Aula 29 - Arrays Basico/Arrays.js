@@ -61,5 +61,5 @@ console.log(alunos.slice(0, 2))//tbm é possivel fatir com numero negativo slice
 
 //O array por padrão é um objeto
 console.log(typeof alunos);
-//Por isso ele a variavel é uma intacia de um array e dessa forma é possivel utilizar varios tipos de dados dentro do array, funções, number, string e etc
+//Por isso ele a variavel é uma instancia de um array e dessa forma é possivel utilizar varios tipos de dados dentro do array, funções, number, string e etc
 console.log(alunos instanceof Array);
