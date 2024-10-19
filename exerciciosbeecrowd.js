@@ -66,7 +66,7 @@ C = parseFloat(5.0);
 
 console.log(`MEDIA = ${(((A*2)+(B*3)+(C*5))/10).toFixed(1)}`);
 //*/
-
+/*//
 let A = parseInt(lines[0]);
 let B = parseInt(lines[1]);
 let C = parseInt(lines[2]);
@@ -78,3 +78,44 @@ C = parseInt(7);
 D = parseInt(8);
 
 console.log(`DIFERENCA = ${(A*B)-(C*D)}`);
+//*/
+
+/*//  1008
+
+let numFuncionario = parseInt(lines[0]);
+let numHora = parseInt(lines[1]);
+let valHora = parseFloat(lines[2]);
+
+numFuncionario = parseInt(6);
+numHora = parseInt(145);
+valHora = parseFloat(15.55);
+
+console.log(`NUMBER = ${numFuncionario}\nSALARY = U$ ${(numHora*valHora).toFixed(2)}`);
+
+//*/
+
+/*//  1009
+
+let nome = (lines[0]);
+let salario = parseFloat(lines[1]);
+let totalVendas = parseFloat(lines[2]);
+
+nome = 'JOAO';
+salario = parseFloat(500.00);
+totalVendas = parseFloat(1230.30);
+
+console.log(`TOTAL = R$ ${(salario+(totalVendas*0.15)).toFixed(2)}`);
+
+//*/
+
+///  1010
+
+let p1 = lines[0].split(' ');
+let p2 = lines[1].split(' ');
+
+p1 = "12 1 5.30".split(' ');
+p2 = "16 2 5.10".split(' ');
+
+console.log(`VALOR A PAGAR: R$ ${((parseFloat(p1[1]) *parseFloat(p1[2]))+(parseFloat(p2[1])*parseFloat(p2[2]))).toFixed(2)}`);
+
+//*/
