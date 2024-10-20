@@ -119,3 +119,23 @@ p2 = "16 2 5.10".split(' ');
 console.log(`VALOR A PAGAR: R$ ${((parseFloat(p1[1]) *parseFloat(p1[2]))+(parseFloat(p2[1])*parseFloat(p2[2]))).toFixed(2)}`);
 
 //*/
+
+/*//  1011
+
+let raio = parseFloat(lines[0]);
+
+raio = 1523;
+
+console.log(`VOLUME = ${((4/3.0)*3.14159*(raio ** 3)).toFixed(3)}`);
+
+//*/
+
+/*//  1012
+
+let v1 = lines[0].split(' ');
+
+v1 = "3.0 4.0 5.2".split(' ');
+
+console.log(`TRIANGULO: ${(parseFloat(v1[0])*parseFloat(v1[2])/2).toFixed(3)}\nCIRCULO: ${(3.14159*parseFloat(v1[2])**2).toFixed(3)}\nTRAPEZIO: ${(((parseFloat(v1[0])+parseFloat(v1[1]))/2)*parseFloat(v1[2])).toFixed(3)}\nQUADRADO: ${(parseFloat(v1[1])**2).toFixed(3)}\nRETANGULO: ${(parseFloat(v1[0])*parseFloat(v1[1])).toFixed(3)}`);
+
+//*/
