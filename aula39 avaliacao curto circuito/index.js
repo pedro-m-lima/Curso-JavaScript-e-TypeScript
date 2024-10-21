@@ -51,3 +51,17 @@ const d = false;
 const e = NaN;
 
 console.log(a || b || c || d || e); //neste caso sera exibe o valor string false, pois esta como string e string nao é validado com false
+
+
+/*//teste
+function geraPessoa(nome, idade){
+    return {
+        nome,
+        idade
+    }
+}
+
+const pessoa1 = geraPessoa("Luiz", 17)
+
+console.log(pessoa1.nome)
+//*/
