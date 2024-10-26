@@ -139,3 +139,14 @@ v1 = "3.0 4.0 5.2".split(' ');
 console.log(`TRIANGULO: ${(parseFloat(v1[0])*parseFloat(v1[2])/2).toFixed(3)}\nCIRCULO: ${(3.14159*parseFloat(v1[2])**2).toFixed(3)}\nTRAPEZIO: ${(((parseFloat(v1[0])+parseFloat(v1[1]))/2)*parseFloat(v1[2])).toFixed(3)}\nQUADRADO: ${(parseFloat(v1[1])**2).toFixed(3)}\nRETANGULO: ${(parseFloat(v1[0])*parseFloat(v1[1])).toFixed(3)}`);
 
 //*/
+
+///  1013
+
+let num = lines[0].split(' ');
+
+//num = "217 14 6".split(' ');
+m1 = (((parseInt(num[0])) + (parseInt(num[1]))) + Math.abs(((parseInt(num[0])) - (parseInt(num[1])))))/2;
+
+console.log(`${((m1 + (parseInt(num[2]))) + Math.abs((m1- (parseInt(num[2])))))/2} eh o maior`);
+
+//*/
