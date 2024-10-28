@@ -76,3 +76,12 @@ table th{
     background: var(--alert-color);
     text-align: center;
 }
+
+.paragrafo-resultado, .paragrafo-bad{
+    background: #43e099;
+    padding: 10px 20px;
+}
+
+.paragrafo-bad{
+    background: #f47076;
+}
