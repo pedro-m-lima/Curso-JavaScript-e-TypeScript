@@ -140,7 +140,7 @@ console.log(`TRIANGULO: ${(parseFloat(v1[0])*parseFloat(v1[2])/2).toFixed(3)}\nC
 
 //*/
 
-///  1013
+/*//  1013
 
 let num = lines[0].split(' ');
 
@@ -148,5 +148,27 @@ let num = lines[0].split(' ');
 m1 = (((parseInt(num[0])) + (parseInt(num[1]))) + Math.abs(((parseInt(num[0])) - (parseInt(num[1])))))/2;
 
 console.log(`${((m1 + (parseInt(num[2]))) + Math.abs((m1- (parseInt(num[2])))))/2} eh o maior`);
+
+//*/
+
+/*/  1014
+let x = parseFloat(lines[0]);
+let y = parseFloat(lines[1]);
+
+x = parseFloat(2254);
+y = parseFloat(124.4);
+
+console.log(`MEDIA = ${(x/y).toFixed(3)}`);
+
+//*/
+
+//  1015
+let p1 = lines[0].split(' ');
+let p2 = lines[1].split(' ');
+
+p1 = "1.0 7.0".split(' ');
+p2 = "5.0 9.0".split(' ');
+
+console.log(`${Math.sqrt(((parseFloat(p1[1])-parseFloat(p1[0]))**2)+(parseFloat(p2[1])-parseFloat(p2[0]))**2).toFixed(4)}`);
 
 //*/
