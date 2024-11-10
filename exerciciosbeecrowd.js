@@ -162,13 +162,34 @@ console.log(`MEDIA = ${(x/y).toFixed(3)}`);
 
 //*/
 
-//  1015
+/*/  1015
 let p1 = lines[0].split(' ');
 let p2 = lines[1].split(' ');
 
 p1 = "1.0 7.0".split(' ');
 p2 = "5.0 9.0".split(' ');
 
-console.log(`${Math.sqrt(((parseFloat(p1[1])-parseFloat(p1[0]))**2)+(parseFloat(p2[1])-parseFloat(p2[0]))**2).toFixed(4)}`);
+console.log(`${Math.sqrt(((parseFloat(p2[0])-parseFloat(p1[0]))**2)+(parseFloat(p2[1])-parseFloat(p1[1]))**2).toFixed(4)}`);
 
 //*/
+
+/*/  1016
+let x = parseInt(lines[0]);
+
+x = parseInt(30);
+
+console.log(`${x*2} minutos`);
+
+//*/
+
+/*/  1017
+let th = parseFloat(lines[0]);
+let vm = parseFloat(lines[1]);
+
+th = parseInt(10);
+vm = parseInt(85);
+
+console.log(`${((th*vm)/12).toFixed(3)}`);
+
+//*/
+
