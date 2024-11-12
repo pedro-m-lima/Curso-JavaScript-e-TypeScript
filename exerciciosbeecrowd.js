@@ -193,3 +193,19 @@ console.log(`${((th*vm)/12).toFixed(3)}`);
 
 //*/
 
+//  1018
+let n = parseFloat(lines[0]);
+
+n = parseInt(576);
+
+while(n > 0){
+  if(n/100 >= 1){
+    console.log(`${(n/100).toFixed(0)} nota(s) de R$ 100,00`)
+    n = parseInt(((n/100)*100)-n)
+  }
+
+}
+
+console.log(`${((th*vm)/12).toFixed(3)}`);
+
+//*/
