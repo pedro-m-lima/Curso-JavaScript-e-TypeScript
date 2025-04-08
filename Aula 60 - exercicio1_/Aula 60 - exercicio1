@@ -1,0 +1,25 @@
+
+// escreva uma função que receba 2 numero e retorne o maior deles
+//minha solução
+function maiorNumero(num1, num2){
+    const maiornum = num1 > num2 ? num1 : num2
+    return maiornum
+}
+console.log(`minha solução ${maiorNumero(5, 2)}`)
+
+//solucao prof 1
+function maxnum(x,y){
+    return x > y? x : y
+}
+
+console.log(`solucao prof 1 ${maxnum(50, 20)}`)
+
+// solucao prof 2 - arrow function
+// arrow function quando possui uma linha só significa que returna algo direto entao nao precisa de {}
+const maxnum2 = (x,y) => x > y ? x : y
+
+console.log(`solucao prof 2 ${maxnum2(15, 222)}`)
+
+
+
+
