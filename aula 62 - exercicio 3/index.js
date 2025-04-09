@@ -1,9 +1,7 @@
 function retNum(num){
     if(typeof num != "number"){
-        console.log("teste")
         return num
     }else if (num%3 !== 0 && num%5 !== 0 ){
-        console.log(num%3)
         return num
     }else if((num%3 == 0) && (num%5 ==0)){
         return "FizzBuzz"
@@ -14,4 +12,8 @@ function retNum(num){
     }
 }
 
-console.log(retNum(20))
+for (let i= 0; i<=100; i++){
+    console.log(`${i} - ${retNum(i)}`)   
+}
+
+
