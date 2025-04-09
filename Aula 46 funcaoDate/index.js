@@ -59,26 +59,18 @@ console.log(dataAtual)
 
 //Criand uma função que formata uma data
 
-//Funcao para adicionar zero a esquerda, utilizando operacao ternaria
 function zeroAesquerda (num){
     return num >= 10 ? num : `0${num}`;
 }
 
-//função que retorna data
-function formataData(dataformat) {
-    //console.log(dataformat)
-    const dia = zeroAesquerda(dataformat.getDate());
-    const mes = zeroAesquerda(dataformat.getMonth()+1);
-    const ano = zeroAesquerda(dataformat.getFullYear());
-    const hora = zeroAesquerda(dataformat.getHours());
-    const min = zeroAesquerda(dataformat.getMinutes());
-    const sec = zeroAesquerda(dataformat.getSeconds());
-    const ms = zeroAesquerda(dataformat.getMilliseconds());
-    const diaDaSemana = zeroAesquerda(dataformat.getDay());
+function formataData(dataformatada) {
+    const dia = zeroAesquerda(dataformatada.getDate());
+    const mes = zeroAesquerda(dataformatada.getMonth()+1);
+    const ano = zeroAesquerda(dataformatada.getFullYear());
 
-    return `${dia}/${mes}/${ano} ${hora}:${min}:${sec}`
+    return `${dia}/${mes}/${ano}`
 }
-// exibindo data
+
 const dataformat = new Date();
 const dataBrasil = formataData(dataformat);
 console.log(dataBrasil)
